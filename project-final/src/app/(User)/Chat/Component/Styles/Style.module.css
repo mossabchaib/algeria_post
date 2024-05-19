@@ -1,0 +1,163 @@
+
+.Container{
+    width: 370px;
+    height:100vh;
+    /* height:625px */
+    background-color: #fff;
+}
+.inputSearchwidth{
+    width: 270px; 
+}
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+ 
+    }
+    .nameUser{
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: 10px;
+        background-color: "red";
+    }
+.fonction{
+   
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
+    /* background-color: rgb(224, 220, 220); */
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 5px;
+    /* padding-top: 15px;
+
+    padding-bottom: 15px; */
+   
+}
+.fonction_text{
+    font-size: 11px;
+    font-weight: 500;
+    height: 30px;
+    border-radius: 7px;
+       padding: 5px;
+    width: 70px;
+}
+.fonction_text_True{
+    font-size: 12px;
+    font-weight: 500;
+    background-color:#fff;
+    height: 30px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 70px;   
+}
+.ContainerSearchTags{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    
+}
+.bigContainerPlatform{
+  
+}
+.ContainerPlatform{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius:10px;
+    background-color:#f6f6f6;
+
+}
+.imagePlatform{
+    width: 24px;
+    height: 20px;
+    border-radius:50% ;
+    transition: 0.5s;
+}
+.bigContainerPlatform {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    width: 370px;
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    white-space: nowrap; 
+
+  }
+  .bigContainerPlatform::-webkit-scrollbar {
+    height: 7px;
+ 
+  }
+  
+  /* لتغيير لون شريط التمرير */
+  .bigContainerPlatform::-webkit-scrollbar-thumb {
+    background-color: #fff; /* Color of the scrollbar thumb */
+    border-radius: 15px;
+ 
+}
+
+.bigContainerPlatform:hover::-webkit-scrollbar-thumb {
+    background-color: #ccc; 
+}
+
+  
+  /* لتغيير لون خلفية شريط التمرير */
+  .bigContainerPlatform::-webkit-scrollbar-track {
+    background-color: #fff; /* لون خلفية شريط التمرير */
+  }
+  .ContainerPlatformTrue {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 150px;
+    border-radius: 10px; /* Corrected border-radius syntax */
+    background-color: blue;
+    color: #fff
+   }
+   .Tab{
+    display: none;
+   }
+     .Page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   }
+   @media only screen and (max-width: 800px) {
+    .Container{
+       width: 380px;
+        height: 600px;    
+    }
+    .inputSearchwidth{
+        max-width: 790px
+    }
+   .Big_Container{
+    display: none;
+   }
+   .Page{
+    display: none;
+   }
+   .sid{
+    display: none;
+   }
+   .Tab{
+    display: block;
+   }
+   .Layout{
+    display: flex;
+    background-color: #fff;
+}
+
+   }
+   @media only screen and (max-width: 500px) {
+    .body{
+        position: fixed;
+        }
+}

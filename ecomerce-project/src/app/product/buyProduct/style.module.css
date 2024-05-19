@@ -1,0 +1,99 @@
+
+  
+  .container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    max-width: 1200px;
+    margin: 20px auto;
+
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .h1 {
+    display: none;
+    text-align: center;
+  }
+  
+  .carttable {
+    width: 290%;
+    border-collapse: collapse;
+  }
+  
+  .carttable th,
+  .carttable td {
+
+    text-align: center;
+    border-bottom: 1px solid #000;
+  }
+  
+  .carttable th {
+   display: none;
+  }
+  
+  .carttable .productimage {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .deletebtn,
+  .clearbtn {
+    padding: 8px 16px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .deletebtn:hover,
+  .clear-btn:hover {
+    background-color: #b71c1c;
+  }
+  
+  .totalprice {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .btn{
+   position: absolute;
+   left: 20%;
+width: 50%;
+background: green;
+  }
+  /* style.module.css */
+
+/* Equivalent styles for "mt-20" and "flex" classes */
+.emptyCartContainer {
+
+margin-top: 150px;
+margin-left: 80px;
+margin-right: 40px;
+padding-left: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Equivalent styles for "h-16" class */
+.shoppingCartIcon {
+  height: 100px;
+}
+
+/* Equivalent styles for "mt-6", "text-center", "text-2xl", and "font-bold" classes */
+.emptyCartText {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+  .emptyCartContainer {margin:10rem auto ;}
+}

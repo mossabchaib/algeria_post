@@ -1,0 +1,94 @@
+/* styles/Navbar.module.css */
+.nav {
+padding: 20px 10px;
+background: #8080;
+  color: #fff;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+ 
+
+  z-index: 1;
+}
+.Sid{
+display: none;
+}
+
+.ul {
+  margin: 0;
+  display: flex;
+ 
+  list-style: none;
+  padding: 0;
+  height: 100%;
+}
+
+.li {
+  display: block;
+  margin-right: 20px;
+ 
+}
+
+.a {
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+}
+.ul2none{
+
+display: none;
+}
+.ul2{
+  background: #fff;
+  z-index: 10;
+  color: #000;
+  padding-right: 20px;
+border-radius: 10px;
+position: absolute;
+top: 30px;
+transition: 1s;
+  display: block;
+  width: 190px;
+  height: 150px;
+  overflow-x: hidden; 
+  overflow-y: scroll;
+}
+.a2{
+  display: block;
+  margin: 5px;
+}
+.Logo{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: 1s;
+  z-index: 1;
+}
+.Logo:hover{
+text-decoration: underline;
+}
+.a:hover{
+  text-decoration: underline;
+  }
+  .satr{
+    text-decoration: underline;
+  }
+  @media only screen and (max-width: 750px) {
+    .nav  {
+      display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  height: 70px;
+    }
+    .a{
+      display: none;
+    }
+    .Sid{
+      display:block;
+      }
+      .Logo{
+    margin-left: 90px;
+
+      }
+  }

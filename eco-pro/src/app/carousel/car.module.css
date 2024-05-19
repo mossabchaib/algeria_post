@@ -1,0 +1,99 @@
+.cart {
+  overflow-x: scroll; 
+  overflow-y: hidden;
+  white-space: nowrap; 
+}
+
+.StyleP {
+  font-size: 5px;
+}
+
+.item {
+  width: 300px;
+  height: 320px;
+background: #000;
+ translate: 1s;
+  padding: 10px;
+  margin-right:45px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  text-align: center;
+border-radius: 10px;
+  display: inline-block; 
+  vertical-align: top; 
+  background: #000;
+
+}
+
+
+.im{
+  transition: 0.5s;
+}
+
+.StyleP{
+  font-size: 5px;
+}
+
+.item:hover{
+  border: 1px solid #0481d5;
+
+}
+
+.item .im:hover{
+  scale: 1.1;
+}
+.buybtn,
+.deletebtn {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buybtn {
+  background-color: #000;
+  color: white;
+}
+
+.deletebtn {
+  text-decoration: none;
+  background-color: #f44336;
+  color: white;
+}
+.Searsh{
+  margin: 20px;
+ 
+}
+.information{
+display: flex;
+height: 40px;
+width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  padding-left: 5px; 
+  font-size: 0.875rem; /* Equivalent to text-xs in some frameworks */
+  font-weight: 600; /* Equivalent to font-semibold */
+  color: #000; /* Equivalent to text-black */
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #333; /* Equivalent to dark:border-neutral-800 */
+  border-radius: 50px;
+  background-color: #000; /* Equivalent to dark:bg-black */
+  color: #fff; 
+margin-top: 10px;
+   justify-content: space-between;
+}
+.p{
+  flex: none; /* Equivalent to flex-none */
+  border-radius: 50px; /* Equivalent to rounded-full */
+  background-color: rgb(40, 156, 40); /* Equivalent to bg-blue-600 */
+  padding: 0.5rem; /* Equivalent to p-2 */
+  color: #fff; 
+margin-top: 15px;
+
+
+}
+

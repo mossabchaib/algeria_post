@@ -1,0 +1,83 @@
+.containar{
+    margin-top: -3%;
+}
+.cart {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.StyleP{
+    font-size: 5px;
+}
+.item {
+    width: 300px;
+    height: 320px;
+  background: #000;
+
+    padding: 10px;
+    margin-right:45px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+border-radius: 10px;
+}
+.item:hover{
+    border: 1px solid #0481d5;
+}
+.im{
+    transition: 0.5s;
+}
+.item .im:hover{
+    scale: 1.1;
+}
+
+
+.buybtn {
+    background-color: #000;
+    color: white;
+}
+
+.deletebtn {
+    text-decoration: none;
+    background-color: #f44336;
+    color: white;
+}
+.Searsh{
+    margin: 20px;
+    margin-bottom: 50px;
+    z-index: 3;
+   
+}
+.information{
+  display: flex;
+  height: 40px;
+  width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding-left: 5px; 
+    font-size: 0.875rem; /* Equivalent to text-xs in some frameworks */
+    font-weight: 600; /* Equivalent to font-semibold */
+    color: #000; /* Equivalent to text-black */
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #333; /* Equivalent to dark:border-neutral-800 */
+    border-radius: 50px;
+    background-color: #000; /* Equivalent to dark:bg-black */
+    color: #fff; 
+margin-top: 10px;
+     justify-content: space-between;
+}
+.p{
+    flex: none; /* Equivalent to flex-none */
+    border-radius: 50px; /* Equivalent to rounded-full */
+    background-color: rgb(40, 156, 40); /* Equivalent to bg-blue-600 */
+    padding: 0.5rem; /* Equivalent to p-2 */
+    color: #fff; 
+ margin-top: 15px;
+
+
+}

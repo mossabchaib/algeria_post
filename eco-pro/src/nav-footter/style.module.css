@@ -1,0 +1,57 @@
+/* components/style.module.css */
+.menuPage {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width:100% ;
+    background-color: #264653;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .Products{
+    position: absolute;
+    top: 80px;
+    right:120px; 
+  }
+  .Cart{
+    position: absolute;
+    top: 130px;
+    right:160px; 
+  }
+  .Sign{
+    position: absolute;
+    top: 180px;
+    right:132px;  
+  }
+  .menuPage span {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  font-size: 25px;
+  margin-left: 0px;
+ 
+    cursor: pointer;
+  }
+  
+  .menuPage span:hover {
+    background-color: #444;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  
+ 

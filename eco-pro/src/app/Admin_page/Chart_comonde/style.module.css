@@ -1,0 +1,18 @@
+.chart{
+    width: 100%;
+grid-column: span 2; /* For md breakpoint */
+position: relative;
+height: 50vh; /* Default height for non-lg breakpoint */
+margin: auto;
+padding: 1rem; /* Equivalent to p-4 in Tailwind */
+border: 1px solid #000; /* Replace with your desired border color */
+border-radius: 0.25rem; /* Equivalent to rounded-lg in Tailwind */
+background-color: #fff; /* Replace with your desired background color */
+
+/* Larger height for lg breakpoint */
+
+}
+@media (min-width: 1024px) {
+    .chart{
+    height: 70vh;
+  }}

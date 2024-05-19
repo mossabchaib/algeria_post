@@ -1,0 +1,40 @@
+.Header{
+    display: flex;
+justify-content: space-between;
+padding-left: 1rem; /* Equivalent to px-4 in Tailwind */
+padding-right: 1rem; /* Equivalent to px-4 in Tailwind */
+padding-top: 1rem;
+}
+.continare{
+    width: 100%;
+grid-column: span 1; /* Equivalent to col-span-1 in Tailwind */
+position: relative;
+height: 50vh; /* Default height for non-lg breakpoint */
+margin: auto;
+padding: 1rem; /* Equivalent to p-4 in Tailwind */
+border: 1px solid #000; /* Replace with your desired border color */
+border-radius: 0.25rem; /* Equivalent to rounded-lg in Tailwind */
+background-color: #fff; /* Replace with your desired background color */
+overflow-y: scroll;
+}
+.li{
+    background-color: #f3f4f6; /* Equivalent to bg-gray-50 in Tailwind */
+border-radius: 0.375rem; /* Equivalent to rounded-lg in Tailwind */
+margin-top: 0.75rem; /* Equivalent to my-3 in Tailwind */
+padding: 0.5rem; /* Equivalent to p-2 in Tailwind */
+cursor: pointer;
+display: flex;
+align-items: center;
+}
+.li:hover {
+    background-color: #edf2f7; /* Equivalent to hover:bg-gray-100 in Tailwind */
+  }
+  .continare2{
+    background-color: #c9c4ff; /* Equivalent to bg-purple-100 in Tailwind */
+border-radius: 0.375rem; /* Equivalent to rounded-lg in Tailwind */
+padding: 0.75rem; 
+  }
+@media (min-width: 1024px) {
+    .continare{
+    height: 70vh;}
+  }

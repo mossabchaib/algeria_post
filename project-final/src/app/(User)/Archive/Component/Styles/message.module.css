@@ -1,0 +1,81 @@
+.Containermessage{
+    height: fit-content;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px; /* Corrected border-radius syntax */
+    background-color: #fff;
+    border: 1px solid #000; /* Added border style and color */
+    margin: 10px;
+   
+}
+.imgplatform{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 22px;
+    left: 24px;
+}
+.headerMessage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.infoUser{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px; 
+}
+.imgUser{
+    height: 35px;
+    width: 35px;
+    border-radius:50% ;
+    background-color: #f6f6f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     position: relative;
+}
+.nameUser{
+    font-size: 12px;
+    font-weight: 600;
+}
+.timemessage{
+    font-size:12px;
+    font-weight: 500;
+  
+}
+.functionUser{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;  
+  
+}
+.functionUseractive{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:70px;
+    font-size:12px;
+    font-weight: 500;
+    border-radius:7px ;
+    background-color: rgb(224, 220, 220);
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.functionUseractivetrue{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:70px;
+    font-size:12px;
+    font-weight: 500;
+    border-radius:7px ;
+    background-color: #000;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #fff;
+}

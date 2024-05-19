@@ -1,0 +1,36 @@
+/* style={{    background: '#fff',height:'44px',width:'50px',marginRight:'-2px',borderRadius:'1rem 0 0 1rem'}} */
+.containar{
+  width: 100%;
+
+}
+.searsh{
+  width: 150%;
+    padding-left: 27%;
+  }
+.input {
+    border: none;
+    padding: 1rem;
+    border-radius:  1rem;
+    background: #fff;
+   margin-top: 3%;
+
+    transition: 0.3s;
+    width:35%;
+    height: 40px;
+   }
+   .input:focus {
+    outline-color: #fff;
+    background: #fff;
+    height: 36px; 
+    transition: 0.3s;
+   }
+   @media only screen and (max-width: 800px) {
+    .input {
+      width: 50%;
+    }
+    .searsh{
+  
+   padding-left: 0px;
+    }
+
+  }
